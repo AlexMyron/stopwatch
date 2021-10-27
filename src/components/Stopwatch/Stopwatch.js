@@ -16,7 +16,7 @@ const StopWatch = () => {
     if (pauseClick === 1) {
       setTimeout(() => {
         observer.next(setPauseClick(1));
-      }, 350);
+      }, 300);
     }
 
     if (pauseClick === 2) {
